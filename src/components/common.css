@@ -1,0 +1,84 @@
+.wrapper {
+    border: solid 1px black;
+    min-height: 100vh;
+    width: 50%;
+    margin: 1%;
+   
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header h1 {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.cardWrap {
+    display: flex;
+    border: solid 1px black;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #81d4fa7a;
+}
+
+.cardsWrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 19px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    align-items: center;
+    border-right: solid 1px black;
+    margin-right: 15px;
+}
+
+.title p {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.style {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.timing {
+    font-size: small;
+    display: flex;
+}
+
+.selectButton {
+    margin-top: 10px;
+    float: right;
+    border: solid 2px green;
+    border-radius: 5px;
+    background: #c5e1a5;
+    padding: 3px;
+}
+
+.selectButton p{
+    font-size: 13px;
+    margin: 4px;
+    font-weight: 600;
+}
+
+.cardWrap:hover {
+    background: #808080a1;
+}
+.selectButton:hover{
+    border: solid 2px white;
+    border-radius: 5px;
+    background: white;
+}
+.red {
+    border: solid 2px rgba(133, 79, 79, 0.367);
+    border-radius: 5px;
+    background: rgba(154, 91, 91, 0.299);
+}
+

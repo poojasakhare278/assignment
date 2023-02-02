@@ -1,0 +1,37 @@
+.App {
+  margin: 0;
+  padding: 10px;
+}
+
+.boxWrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 1%;
+  border: solid 1px black;
+}
+
+.message {
+  width: 80%;
+  height: 40px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message p {
+  font-weight: 600;
+  font-size: 30px;
+}
+.error{
+  color: red;
+  position: absolute;
+  right: 212px;
+  bottom: 268px;
+  font-size: larger;
+  font-weight: 600;
+  background: #ff00001c;
+}
